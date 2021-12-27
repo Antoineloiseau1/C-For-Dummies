@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1640618879 source:/home/antoine/Code/C For Dummies/Chapitre 12/ex1214/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
