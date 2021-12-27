@@ -29,8 +29,7 @@ int main()
             else
                 printf("Perdu ! Le nombre était %d...\n", random);
         }
-        else;
-    }while(random==FALSE && guess==FALSE);
+        else
     return(0);
 }
 
