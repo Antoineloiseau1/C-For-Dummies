@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    int x;
+
+    for(x=0; x=10; x=x+1)
+    {
+        printf("Vous cherchiez quelque chose ? %d\n", x);
+    }
+    return 0;
+}

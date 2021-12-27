@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1639844177 source:/home/antoine/Code/C For Dummies/Chapitre 4/ex0511/main.c
+	<stdio.h>
+	<stdlib.h>
+
