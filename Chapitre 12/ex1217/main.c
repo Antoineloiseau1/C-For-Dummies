@@ -17,7 +17,6 @@ int main()
             printf("%c\t", ticTacToe[x][y]);
         putchar('\n');
     }
-
-
+    
     return 0;
 }
