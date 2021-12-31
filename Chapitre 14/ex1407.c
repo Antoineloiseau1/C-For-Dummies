@@ -22,7 +22,7 @@ int main()
 
 	//Give Andrea her medal back !!!
 	
-	int tempScore,y;
+	int y;
 	x=0;
 	while(x<PLAYER_NUMBER-1)
 	{	
