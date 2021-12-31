@@ -19,8 +19,6 @@ int main()
 
     printf("Essayez de devinez le nombre [0-20]: ");
 
-    do
-    {
         scanf("%d", &guess); // enregistre la réponse du joueur
         if(verifyInput(guess))
         {
