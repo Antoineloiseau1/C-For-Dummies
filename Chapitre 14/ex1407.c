@@ -8,7 +8,7 @@ int main()
 	{
 		char name[32];
 		int score;
-	}player[PLAYER_NUMBER], temp[PLAYER_NUMBER];
+	}player[PLAYER_NUMBER], temp;
 
 	int x=0;
 	while(x<PLAYER_NUMBER)
@@ -31,9 +31,9 @@ int main()
 		{
 			if(player[x].score < player[y].score)
 			{
-				temp[x]=player[x];
+				temp=player[x];
 				player[x]= player[y];
-				player[y]=temp[x];
+				player[y]=temp;
 			}
 			y++;
 		}
