@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
 
-int ifvowel(char *c);
+int isvowel(char *c);
 
 int main()
 {
@@ -20,8 +19,8 @@ int main()
 	while(*(input1+i) != '\n')
 	{
 		*(input2+i)=*(input1+i);
-		if(ifvowel((input1+i)))
-				*(input2+i)='@';
+		if(isvowel((input1+i)))
+			*(input2+i)='@';
 		i++;
 	}
 	puts("You Entered: ");
@@ -29,7 +28,7 @@ int main()
 	return(0);
 }
 
-int ifvowel(char *c)
+int isvowel(char *c)
 {
 	switch(*c)
 	{
